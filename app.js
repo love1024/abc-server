@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(logger());
 app.set('port',process.env.PORT || 3000);
 
-const db = mongoskin.db('mongodb://@localhost:27017/test');
+const db = mongoskin.db('mongodb://love1024:Lsvwsan9@ds237868.mlab.com:37868/abc');
 const id = mongoskin.helper.toObjectID
 
 const collection = db.collection('abc');
